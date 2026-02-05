@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenClaw Ecosystem - Related Projects & Tools</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        .navigation {
+            background-color: #e8f4fd;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        .navigation a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+        .repo-card {
+            background-color: #f8f9fa;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+        .repo-title {
+            font-size: 1.3em;
+            color: #2980b9;
+            margin-top: 0;
+        }
+        .repo-description {
+            margin-bottom: 15px;
+        }
+        .repo-stats {
+            display: flex;
+            gap: 15px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+        .stat {
+            background-color: #e1f0fa;
+            padding: 3px 8px;
+            border-radius: 3px;
+        }
+        .ecosystem-section {
+            background-color: #e8f5e9;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        .external-link {
+            display: inline-block;
+            margin: 10px 5px;
+            padding: 8px 15px;
+            background-color: #d1f2eb;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .affiliate-section {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <a href="./index.html">&larr; Back to Resources Index</a>
+            <a href="#official">Official</a>
+            <a href="#community">Community</a>
+            <a href="#deployment">Deployment</a>
+        </div>
+        
+        <h1>OpenClaw Ecosystem - Related Projects & Tools</h1>
+        
+        <p>This page catalogs the extensive OpenClaw ecosystem, including official repositories, community projects, and deployment options. OpenClaw (formerly Moltbot and Clawdbot) has grown into a vibrant open-source project with thousands of contributors and users.</p>
+
+        <div class="affiliate-section">
+            <h3>Recommended Hosting Services</h3>
+            <p>Ready to deploy OpenClaw? Consider these hosting options:</p>
+            <ul>
+                <li><a href="https://www.rainyun.com/openclaw_" target="_blank">雨云服务器 - Reliable hosting for China users</a></li>
+                <li><a href="https://marketplace.digitalocean.com/apps/openclaw?refcode=fb86ec65bc39" target="_blank">Digital Ocean - Deploy OpenClaw on cloud</a></li>
+                <li><a href="https://zeabur.com/templates/VTZ4FX?referralCode=openclaw" target="_blank">Zeabur - Easy deployment platform</a></li>
+                <li><a href="https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/moltworker" target="_blank">Cloudflare Workers - Serverless deployment</a></li>
+            </ul>
+        </div>
+
+        <h2 id="official">Official OpenClaw Projects</h2>
+        
+        <div class="repo-card">
+            <h3 class="repo-title"><a href="https://github.com/openclaw/openclaw" target="_blank">openclaw/openclaw</a></h3>
+            <p class="repo-description">Your personal, open source AI assistant. Any OS. Any Platform. The main OpenClaw repository with the core gateway and agent runtime. Formerly known as Moltbot and Clawdbot.</p>
+            <div class="repo-stats">
+                <span class="stat">Primary Repository</span>
+                <span class="stat">Self-Hosted AI Assistant</span>
+                <span class="stat">Multi-Platform Messaging</span>
+            </div>
+        </div>
+
+        <div class="repo-card">
+            <h3 class="repo-title"><a href="https://github.com/openclaw?tab=repositories" target="_blank">OpenClaw Organization</a></h3>
+            <p class="repo-description">The official OpenClaw GitHub organization with 16+ repositories including documentation, tools, and extensions. Includes repositories for Nix packaging, mobile apps, and more.</p>
+            <div class="repo-stats">
+                <span class="stat">16+ Repositories</span>
+                <span class="stat">Official Organization</span>
+                <span class="stat">Nix Packaging Available</span>
+            </div>
+        </div>
+
+        <h2 id="community">Community Projects</h2>
+        
+        <div class="repo-card">
+            <h3 class="repo-title"><a href="https://github.com/VoltAgent/awesome-openclaw-skills" target="_blank">VoltAgent/awesome-openclaw-skills</a></h3>
+            <p class="repo-description">An awesome collection of OpenClaw Skills. Contains numerous community-developed skills for extending OpenClaw functionality. Formerly known as Moltbot, originally Clawdbot.</p>
+            <div class="repo-stats">
+                <span class="stat">Skill Collection</span>
+                <span class="stat">Community Maintained</span>
+                <span class="stat">Extends Functionality</span>
+            </div>
+        </div>
+
+        <div class="repo-card">
+            <h3 class="repo-title"><a href="https://github.com/moltbot" target="_blank">Moltbot Organization</a></h3>
+            <p class="repo-description">Former home of the project before rebranding to OpenClaw. This organization has been relocated to OpenClaw, but historical repositories may still exist here.</p>
+            <div class="repo-stats">
+                <span class="stat">Historical Significance</span>
+                <span class="stat">Project Evolution</span>
+                <span class="stat">Legacy Repositories</span>
+            </div>
+        </div>
+
+        <h2 id="deployment">Deployment & Integration Projects</h2>
+        
+        <div class="repo-card">
+            <h3 class="repo-title"><a href="https://github.com/cloudflare/moltworker" target="_blank">cloudflare/moltworker</a></h3>
+            <p class="repo-description">Run OpenClaw (formerly Moltbot, formerly Clawdbot) on Cloudflare Workers. This worker includes a Chrome DevTools Protocol (CDP) shim that enables browser automation capabilities, allowing OpenClaw to control a headless browser for tasks like web scraping, screenshots, and automated testing.</p>
+            <div class="repo-stats">
+                <span class="stat">Cloudflare Workers</span>
+                <span class="stat">Serverless Deployment</span>
+                <span class="stat">Browser Automation</span>
+            </div>
+        </div>
+
+        <h2>Project History & Evolution</h2>
+        
+        <div class="ecosystem-section">
+            <h3>From Clawdbot to OpenClaw</h3>
+            <p>OpenClaw has undergone several rebrandings:</p>
+            <ul>
+                <li><strong>Clawdbot</strong> - Original project name</li>
+                <li><strong>Moltbot</strong> - First rebranding</li>
+                <li><strong>OpenClaw</strong> - Current name and branding</li>
+            </ul>
+            <p>Despite the rebrandings and some security challenges along the way, the project has continued to grow and thrive as an open-source initiative.</p>
+        </div>
+
+        <div class="ecosystem-section">
+            <h3>Ecosystem Scale</h3>
+            <p>The OpenClaw project has achieved impressive scale:</p>
+            <ul>
+                <li>Over 145,000 stars on GitHub</li>
+                <li>Over 20,000 forks on GitHub</li>
+                <li>50+ official integrations with popular services</li>
+                <li>700+ Skills in the community library</li>
+                <li>Support for 12 major messaging platforms</li>
+            </ul>
+        </div>
+
+        <h2>Key Integrations</h2>
+        
+        <p>OpenClaw supports integrations with numerous services and platforms:</p>
+        
+        <ul>
+            <li>Messaging: WhatsApp, Telegram, Discord, Slack, Signal, iMessage</li>
+            <li>AI Providers: Claude, GPT, DeepSeek, and others</li>
+            <li>Smart Home: Spotify, Hue, and other IoT services</li>
+            <li>Productivity: Obsidian, Gmail, GitHub, Twitter</li>
+            <li>Browser Automation: Web scraping, screenshots, automated testing</li>
+        </ul>
+
+        <div class="navigation">
+            <a href="./index.html">&larr; Back to Resources Index</a>
+            <a href="#top">Back to Top</a>
+        </div>
+    </div>
+</body>
+</html>
