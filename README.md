@@ -19,3 +19,20 @@ These resources are designed to provide valuable information about:
 For comprehensive guides and tutorials about OpenClaw, visit [openclawwiki.org](https://openclawwiki.org/)
 For philosophy-inspired resources, visit [stoiclines.store](https://stoiclines.store/)
 For web games, visit [24kwebgames.com](https://24kwebgames.com/)
+
+## Recommended Tools & Services
+
+### Hosting & Deployment
+- [雨云服务器](https://www.rainyun.com/openclaw_) - Reliable hosting for China users
+- [Digital Ocean](https://marketplace.digitalocean.com/apps/openclaw?refcode=fb86ec65bc39) - Deploy OpenClaw on cloud
+- [Zeabur](https://zeabur.com/templates/VTZ4FX?referralCode=openclaw) - Easy deployment platform
+- [Cloudflare Workers](https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/moltworker) - Serverless deployment
+
+### Productivity & Creativity
+- [AlienArt](https://alienart.io/?referer=67c1d55daaf8a63d61f9f7fe) - Creative design tools
+- [Blotato](https://blotato.com/?ref=zhiyong) - Productivity tools
+- [Mulerun](https://mulerun.com/invitation/H8U67WX6A62P) - Performance tools
+- [Metricool](https://f.mtr.cool/ZPFUKY) - Social media management
+
+### Community & Learning
+- [Skool](https://www.skool.com/signup?ref=8834994533d044b18e328099da5ba427) - Community building platform
