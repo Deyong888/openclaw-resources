@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenClaw Resources - Official Information & Documentation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        .navigation {
+            background-color: #e8f4fd;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        .navigation a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+        .feature-box {
+            background-color: #e8f4fd;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            border-left: 4px solid #3498db;
+        }
+        .repo-list {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .repo-item {
+            padding: 10px;
+            margin: 10px 0;
+            background-color: white;
+            border-radius: 3px;
+            border-left: 3px solid #3498db;
+        }
+        .external-link {
+            display: inline-block;
+            margin: 10px 5px;
+            padding: 8px 15px;
+            background-color: #d1f2eb;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .affiliate-section {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <a href="./index.html">&larr; Back to Resources Index</a>
+            <a href="#features">Features</a>
+            <a href="#repos">Repositories</a>
+            <a href="#skills">Skills</a>
+        </div>
+        
+        <h1>OpenClaw Resources - Official Information & Documentation</h1>
+        
+        <p>OpenClaw is a self-hosted, open-source AI assistant that connects your messaging platforms to AI agents. Formerly known as Moltbot and Clawdbot, OpenClaw enables you to run your own personal AI assistant on your own hardware.</p>
+
+        <div class="affiliate-section">
+            <h3>Recommended Hosting Services</h3>
+            <p>Need a server to host your OpenClaw instance? Consider these options:</p>
+            <ul>
+                <li><a href="https://www.rainyun.com/openclaw_" target="_blank">雨云服务器 - Reliable hosting for China users</a></li>
+                <li><a href="https://marketplace.digitalocean.com/apps/openclaw?refcode=fb86ec65bc39" target="_blank">Digital Ocean - Deploy OpenClaw on cloud</a></li>
+                <li><a href="https://zeabur.com/templates/VTZ4FX?referralCode=openclaw" target="_blank">Zeabur - Easy deployment platform</a></li>
+                <li><a href="https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/moltworker" target="_blank">Cloudflare Workers - Serverless deployment</a></li>
+            </ul>
+        </div>
+
+        <h2 id="features">Key Features</h2>
+        
+        <div class="feature-box">
+            <h3>Multi-Platform Messaging Integration</h3>
+            <p>OpenClaw connects to various messaging platforms including WhatsApp, Telegram, Discord, Slack, Signal, and iMessage, allowing you to interact with your AI assistant wherever you are.</p>
+        </div>
+        
+        <div class="feature-box">
+            <h3>Self-Hosted Privacy</h3>
+            <p>Run your AI assistant on your own hardware, ensuring that your conversations and data remain private and under your control. No third-party servers logging your interactions.</p>
+        </div>
+        
+        <div class="feature-box">
+            <h3>Extensible with Skills</h3>
+            <p>OpenClaw uses AgentSkills-compatible skill folders to extend functionality. There are 50+ integrations with apps and services you already use, and the community continuously develops new skills.</p>
+        </div>
+        
+        <div class="feature-box">
+            <h3>AI Model Agnostic</h3>
+            <p>Works with various AI providers including Claude, GPT, DeepSeek, and others. Connect your preferred large language model to your OpenClaw instance.</p>
+        </div>
+
+        <h2 id="repos">Official OpenClaw Repositories</h2>
+        
+        <div class="repo-list">
+            <div class="repo-item">
+                <h3><a href="https://github.com/openclaw/openclaw" target="_blank">openclaw/openclaw</a></h3>
+                <p>Your personal, open source AI assistant. The main OpenClaw repository with the core gateway and agent runtime.</p>
+            </div>
+            
+            <div class="repo-item">
+                <h3><a href="https://github.com/VoltAgent/awesome-openclaw-skills" target="_blank">VoltAgent/awesome-openclaw-skills</a></h3>
+                <p>An awesome collection of OpenClaw Skills. Contains numerous community-developed skills for extending OpenClaw functionality.</p>
+            </div>
+            
+            <div class="repo-item">
+                <h3><a href="https://github.com/openclaw?tab=repositories" target="_blank">OpenClaw Organization</a></h3>
+                <p>The official OpenClaw GitHub organization with 16+ repositories including documentation, tools, and extensions.</p>
+            </div>
+        </div>
+
+        <h2 id="skills">Popular OpenClaw Skills</h2>
+        
+        <p>OpenClaw's functionality can be extended through skills. Here are some popular ones:</p>
+        
+        <ul>
+            <li><strong>gitlab-manager</strong> - Manage GitLab repositories, merge requests, and issues via API</li>
+            <li><strong>gitload</strong> - Download files or folders from GitHub without cloning the entire repository</li>
+            <li><strong>domaindetails</strong> - Look up domain WHOIS/RDAP info and check marketplace listings</li>
+            <li><strong>eleutherios</strong> - Epistemic analysis infrastructure for querying knowledge graphs</li>
+        </ul>
+
+        <h2>Getting Started with OpenClaw</h2>
+        
+        <p>To get started with OpenClaw, follow these steps:</p>
+        
+        <ol>
+            <li>Install Node.js on your system</li>
+            <li>Run the onboarding wizard: <code>openclaw onboard</code></li>
+            <li>Configure your messaging platform connections</li>
+            <li>Set up your AI provider credentials</li>
+            <li>Customize your skills and integrations</li>
+        </ol>
+
+        <h2>Documentation & Resources</h2>
+        
+        <ul>
+            <li><a href="https://docs.openclaw.ai/" target="_blank">Official Documentation</a></li>
+            <li><a href="https://openclaw.ai/" target="_blank">Official Website</a></li>
+            <li><a href="https://openclawwiki.org/" target="_blank">OpenClaw Wiki</a></li>
+            <li><a href="https://github.com/openclaw/openclaw" target="_blank">Main Repository</a></li>
+            <li><a href="https://discord.gg/clawd" target="_blank">Community Discord</a></li>
+        </ul>
+
+        <div class="navigation">
+            <a href="./index.html">&larr; Back to Resources Index</a>
+            <a href="#top">Back to Top</a>
+        </div>
+    </div>
+</body>
+</html>
