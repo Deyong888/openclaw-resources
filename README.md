@@ -8,6 +8,7 @@ This repository contains educational resources about self-hosted AI assistants, 
 - **[OpenClaw Guide](./openclaw-guide.html)** - Complete guide to self-hosting your AI assistant with OpenClaw
 - **[OpenClaw Info](./openclaw-info.html)** - Official OpenClaw information, repositories, and documentation
 - **[OpenClaw Ecosystem](./ecosystem.html)** - Related projects, tools, and evolution of OpenClaw
+- **[External Resources](./external_links_page.html)** - Curated collection of partner sites and resources
 - **[Stoic Philosophy Guide](./stoic-guide.html)** - Modern applications of ancient Stoic wisdom
 - **[Web Games Guide](./web-games-guide.html)** - The rise of web-based gaming
 
